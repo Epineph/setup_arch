@@ -1,0 +1,16 @@
+alias freshZsh='source $HOME/.zshrc'
+alias editZsh='sudo nano $HOME/.zshrc'
+alias nvimZsh='sudo nvim $HOME/.zshrc'
+alias freshBash='source $HOME/.bashrc'
+alias editBash='sudo nano $HOME/.bashrc'
+alias nvimBash='sudo nvim $HOME/.bashrc'
+alias sudoyay='yay --batchinstall --sudoloop --asdeps'
+alias autoyay='yay --batchinstall --sudoloop --asdeps --noconfirm'
+alias vimZsh='sudo vim ~/.zshrc'
+alias getip="ip addr | grep 'inet ' | grep -v '127.0.0.1' | awk '{print \$2}' | cut -d/ -f1"
+alias fzfind='fzf --print0 | xargs -0 -o nvim'
+alias zsh_profile='/home/heini/.zshrc'
+alias nvimInit='nvim ~/.config/nvim/init.lua'
+alias ls='lsd'
+alias startPyEnv='source virtualPyEnvs/pyEnv/bin/activate'
+
